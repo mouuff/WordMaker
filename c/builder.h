@@ -1,3 +1,6 @@
+#ifndef BUILDER_H
+#define BUILDER_H
+
 char* product(int number){
     const char chars[] = "!#%&()*+,-./0123456789:;=?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_abcdefghijklmnopqrstuvwxyz{}";
 
@@ -12,3 +15,5 @@ char* product(int number){
     }
     return result;
 }
+
+#endif // BUILDER_H
