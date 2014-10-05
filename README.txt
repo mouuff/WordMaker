@@ -1,2 +1,6 @@
-This is a word generator
-it will create big file with ANY key
+This is a word generator made for brute force key generator, this algorithms will create any words
+it works this way
+aaa
+aab
+aac
+etc...
