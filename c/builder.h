@@ -7,7 +7,7 @@ char* product(int number){
     const unsigned short int base = strlen(chars);
     unsigned short int i;
 
-    char *result = malloc(sizeof(char));
+    char *result = (char*) malloc(sizeof(char));
 
     for (i = 0; number > 0; i++){
         number /= base;
