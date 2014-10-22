@@ -9,7 +9,7 @@ char* product(unsigned long int index, const char* chars){
     unsigned short int i;
     unsigned long int number = index*base;
 
-    char *result = (char*) malloc(sizeof(char));
+    char *result = (char*) malloc(sizeof(char*));
 
     for (i = 0; number > 0; i++){
         number /= base;
