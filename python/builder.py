@@ -1,3 +1,5 @@
+#!/usr/bin/python2
+
 from itertools import product
 from sys import stdout
 from time import time
